@@ -1,0 +1,69 @@
+#header-background-video {
+    overflow: hidden;
+    height: 290vh;
+    width: 100%;
+    background-color: black;
+}
+
+#logoheader {
+    display: inline;
+    margin-left: 150px;
+    position: relative;
+    width: 50px;
+}
+
+#gallerymain {
+    
+    height : 80%;
+    width : 100%;
+    position: relative;
+    top : 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.imgcard {
+    width : 358px;
+    height: 311px;
+   
+    display: flex;
+    flex-direction: column;
+}
+
+.imgcardcontainer {
+    position: relative;
+    top : 30px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-between ;
+    justify-content: space-around;
+}
+
+.img1 {
+    height: 100%;
+    width : 100%;
+}
+
+.imgheading  {
+    color: white;
+    position: relative;
+    top : 10px;
+    left : 10px;
+    font-family:  sans-serif;
+}
+.imgdesc {
+    color: #777;
+    position: relative;
+    top : 15px;
+    left: 10px;
+    font-family:  sans-serif;
+}
+
+
+
+

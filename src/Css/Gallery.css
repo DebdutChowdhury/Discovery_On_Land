@@ -1,0 +1,51 @@
+#header-main {
+    overflow: hidden;
+    height: 170vh;
+    width: 100%;
+    display: block;
+}
+
+#headerimgcontainer{
+    width: 100%;
+    height: 70vh;
+}
+
+#headerimg{
+    width: 100%;
+    height: 100%;
+}
+
+#gall-main{
+    /* padding-left: 2px; */
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#img-galcard{
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#gal-img{
+    height: 82%;
+}
+
+#imggal1{
+    height: 100%;  
+}
+
+#gal-title{
+    background-color: black;
+    width: 102%;
+    height: 13%;
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    font-size: larger;
+}

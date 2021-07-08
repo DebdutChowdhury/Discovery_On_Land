@@ -1,0 +1,920 @@
+.header-main {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.header-main video{
+    width: 100%;
+    -o-object-fit:cover;
+    object-fit:cover
+}
+
+.c-site-head__logo {
+bottom: 650px;
+display: block;
+pointer-events: all;
+cursor: pointer;
+z-index: 2;
+width: 100%;
+position: absolute;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+
+.c-site-head__logo img{
+    width: 12%;
+}
+
+.list-items {
+    float: left;
+    list-style: none;
+    margin-right:  80px;
+    font-family: 'Roboto', sans-serif;
+    color : #fff;
+    display: inline-block;
+    position: relative;
+}
+
+.list-items::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.list-items:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.ulist{
+    left: 100px;
+}
+
+
+
+.footer {
+    background-color: #161f1e;
+    width: 100%;
+    height: 500px;
+    z-index: 2;
+    -o-object-fit:cover;
+    object-fit:cover;
+}
+
+.footercontainer  {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom : -160px;
+    padding-left: 200px;
+}
+
+.logoactual {
+    position: relative;
+    width: 3%;
+    
+}
+
+#item2 {
+    width : 16.6%;
+    padding-left: 500px;
+    
+}
+
+.pl {
+    align-self: center;
+}
+
+#item3 {
+
+    width : 16.6%;
+    
+}
+
+#item4 {
+    width : 16.6%;
+   
+}
+
+.lo {
+    position: relative;
+    left: 100px;
+    
+}
+
+.secondfooteritems, .thirdfooteritems, .fourthfooteritems {
+    font-family: 'Roboto', sans-serif;
+    color : #fff;
+    margin-bottom: 20px;
+}
+
+#ourworld {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    width : 100%;
+    height : 150vh;
+    background-image: url('http://staging.discoverylandco.com/imager/images/287/background_imagev2_3580431e48aedf97dcedf972d1481942.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+#text-image-ourworld {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#onlyimage-ourworld {
+    width : 50%;
+    height: 100%;
+}
+
+#ourworld-heading {
+    position: relative;
+    top : 150px;
+    width : 500px;
+    height: 120px;
+}
+
+#headingone {
+    position: relative;
+    font-family: 'Antic Slab', serif;
+    font-weight: bold;
+    font-size:xx-large;
+    height: 120px;
+}
+
+#headingtwo {
+    position: relative;
+    bottom:40px;
+    left : 5px;
+    font-family: 'Antic Slab', serif;
+    font-size: x-large ;
+}
+
+#ourworlds-desc {
+    width : 500px;
+    height: 150px;
+    position: relative;
+    top : 150px;
+    line-height: 2;
+    font-size: 1.3rem;
+    color: #777;
+}
+
+#imageourworld {
+    position: relative;
+    top : 580px;
+    width : 500px;
+    height: 350px;
+}
+
+#onlyimage-ourworld {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#onlyimgcontainerimg {
+    width : 550px;
+    height : 800px;
+    position: relative;
+    top : 200px;
+}
+
+#press {
+    margin-right: 0px;
+}
+#togglebutton{
+   z-index : 10;
+}
+
+.c-burger {
+    --size: 1.25rem;
+    --height: 14px;
+    position: relative;
+    width: var(--size);
+    height: var(--height);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: 2;
+}
+
+.c-burger__line {
+    height: 2px;
+    background-color: #fff;
+    -webkit-transform-origin: right;
+    transform-origin: right;
+}
+
+.c-burger__line:nth-child(2) {
+    margin: 4px 0;
+}
+
+.c-burger__line:nth-child(3) {
+    width: 60%;
+    margin-left: auto;
+}
+
+.c-burger-close {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%) rotate(45deg);
+    transform: translate(-50%,-50%) rotate(45deg);
+    height: 2px;
+    width: 100%;
+}
+
+button, select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+/* 
+button {
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+} */
+
+#expolreworlds{
+    width : 100%;
+    top: 50px;
+    height : 6 0vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+#explorecontainerone {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#headingoneexplore {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    display: inline;
+    position: relative;
+}
+
+#exploreheadingone {
+    font-family: 'Antic Slab', serif;
+    font-weight: bold;
+    font-size: xxx-large;
+}
+
+#headingtwoexplore {
+    position: relative;
+    bottom : 100px;
+    display: flex;
+}
+
+#exploreheadingtwo {
+    font-family: 'Antic Slab', serif;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+/* #descexplore {
+    position: relative;
+    line-height: 2;
+    font-size: 1.3rem;
+    color: #777;
+    left: 145px;
+    width: 50%;
+    bottom: 124px;
+} */
+
+#carouselbuttonsexplore {
+    width :20%;
+    height: 100px;
+    margin-right: 800px;
+    margin-top: 100px;
+    display: inline;
+    z-index: 1;
+    position: relative;
+    bottom : -19px;
+}
+
+#carouselandglobe {
+    background-color:#fff;
+    height : 100vh;
+    width : 100%;
+}
+
+
+#leftbutton {
+    display: inline;
+    padding: 20px;
+    position: relative;
+    left: 100px;
+    top : 70px;
+    background-color: #fff;
+    border-radius: 90px;
+    margin-left: 20px;
+    box-shadow: 0 8px 14px 0 rgb(0 0 0 / 15%);
+}
+
+#rightbutton {
+    display: inline;
+    padding: 20px;
+    position: relative;
+    left: 180px;
+    top : 70px;
+    background-color: #fff;
+    border-radius: 90px;
+    box-shadow: 0 8px 14px 0 rgb(0 0 0 / 15%);
+}
+
+#leftbutton:hover,#rightbutton:hover,#left:hover {
+    background-color: gray;
+
+}
+
+#leftarrow,#rightarrow {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top :10px;
+    color: aqua;
+}
+
+#rightarrow {
+    transform: rotateZ(180deg);
+}
+
+#carousel-items {
+    position: relative;
+    top : 10px;
+    left: 350px;
+    display: flex;
+    flex-direction: row;
+    transition: 2000ms linear;
+
+}
+
+
+
+#carouselandglobe {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.empty-space {
+    width : 16.6%;
+    border : 2px solid violet;
+}
+
+
+.carousel-item {
+   
+    width : 470px;
+    height : 600px;
+    margin : 10px;
+
+}
+
+.img-1 {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+
+}
+
+
+.c-slide__content {
+    position: relative;
+    bottom: 236px;
+    color: white;
+    left: 52px;
+}
+
+
+#lands {
+    width : 100%;
+    height: 180vh;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#landstext {
+    position: relative;
+    right: 200px;
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+}
+#headingtwo {
+    position: relative;
+}
+
+#landsdesc {
+   line-height: 2; 
+    font-size: 1.3rem;
+    color: #777;
+}
+
+#continentsbuttons {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 230px;
+}
+
+.buttoncontainer {
+    margin: 40px;
+}
+
+#north,#hawii,#europe {
+    font-size: x-large;
+    transition: 2s linear;
+    transition: 300ms  linear;
+    border-bottom: 1px solid transparent;
+}
+
+#north:hover,#hawii:hover,#europe:hover {
+    border-color: black;
+}
+
+#continentcontent {
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+#continentcontent{
+    width : 100%;
+    height : 150vh;
+    background-image: url('https://discoverylandco.com/static/globe-usa.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 120%;
+    
+}
+
+.panel {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width : 790px;
+    height: 700px;
+    position: relative;
+    top : 80px;
+    left: 600px;
+    
+  
+}
+
+#locationdesc {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#locationslider {
+    width: 50%;
+    height: 100%;
+}
+
+#locationbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top : 40px;
+}
+
+.leftarrow1, .rightarrow1 {
+    fill  : white;
+}
+
+
+#imageshow {
+    
+    width : 70%;
+    height: 90%;
+    position: relative;
+    left : 55px;
+    bottom : 55px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+#iamgescontainerland {
+    transition: 2000ms linear;
+}
+
+.landimg {
+    width : 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+#smalllocation {
+    position: relative;
+    top : 240px;
+}
+
+
+#area {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    line-height: 2;
+    font-size: .9rem;
+    color: white;
+}
+
+#sun {
+    font-size: x-small;
+    color: white;
+}
+
+#icon-sun {
+
+    width : 30px;
+    fill : #fff;
+    
+}
+#locationattri  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top : 200px;
+}
+#suntext {
+    position: relative;
+    left: 5px;
+}
+
+#largelocation {
+    position: relative;
+    top : 270px;
+    height: 15%;
+}
+
+#mainlocation {
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+#icon-pip {
+    fill : #fff;
+    width: 25px;
+    position: relative;
+    top : 300px;
+    left: 50px;
+}
+
+#latlongtext {
+    color: white;
+    font-size: x-small;
+    position: relative;
+    left : 99px;
+    top :  260px;
+}
+
+
+
+
+#continentsbuttons {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 230px;
+}
+
+.buttoncontainer {
+    margin: 40px;
+}
+
+#north,#hawii,#europe {
+    font-size: x-large;
+    transition: 2s linear;
+    transition: 300ms  linear;
+    border-bottom: 1px solid transparent;
+}
+
+#north:hover,#hawii:hover,#europe:hover {
+    border-color: black;
+}
+
+#continentcontent {
+    display: flex;
+    flex-direction: row;
+}
+
+.dis-main{
+    display: flex;
+    flex-direction: column; 
+    text-align: start; 
+    position: relative;
+    right: 200px;
+    top: 200px;
+    font-size: 2.5em;
+}
+
+.dis-sub{
+    position:relative;
+    display:inline-block;
+    transform: translate(0px, 0px);
+
+    
+}
+.dis-subb{
+    position: relative;
+    display: inline-block;
+    transform: translate(0px, 0px);
+}
+
+.c-hero-slider__title {
+    position: absolute;
+    color: #fff;
+    line-height: 1.3;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    will-change: transform;
+    z-index: 4;
+}
+
+
+.o-h1, .o-h2, .o-h3, h1, h2, h3, h4 {
+    font-family: gt-sectra;
+    font-weight: 100;
+}
+
+/* h1 .dis-sub{
+    display: block;
+    font-size: 3em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1 .dis-subb {
+    font-size: 2em;
+} */
+
+.c-hero-slider .c-line--1 {
+    transform: translateY(var(--value-big-1));
+}
+
+.c-line {
+    --value-small-1: 5%;
+    --value-small-2: calc(var(--value-small-1)*-1);
+    --value-medium-1: 10%;
+    --value-medium-2: calc(var(--value-medium-1)*-1);
+    --value-big-1: 17%;
+    --value-big-2: calc(var(--value-big-1)*-1);
+    white-space: nowrap;
+}
+
+#lifewellexpcards {
+    background-color: white;
+    height: 90vh;
+    width : 100%;
+    display : flex;
+    flex-direction: row;
+}
+
+#experience,#wellness1,#lifestyle {
+    width : 33.3%;
+    height : 100%
+}
+
+.expimg {
+    width : 100%;
+    height : 100%;
+}
+
+.arrowoncard {
+    width : 25px;
+    fill : #fff;
+    position : relative;
+    top :17px;
+    left : 12px;
+
+}
+
+.buttoncircle {
+    border : 2px solid white;
+    height: 50px;
+    position : relative;
+    width : 50px;
+    border-radius: 120px;
+}
+
+.buttonandtitle {
+    height : 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 450px;
+}
+
+.title {
+    font-size: xx-large;
+    color : #fff;
+}
+
+.c-hero__ctas {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.c-hero__ctas {
+    position: absolute;
+    left: 8vw;
+    left: var(--gutter);
+    right: 8vw;
+    right: var(--gutter);
+    bottom: 4.5rem;
+    z-index: 4;
+}
+
+.c-hero-labels__label{
+    opacity: 0; 
+    transform: translate(0%, -50%);
+}
+
+.c-hero-labels {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-bottom: 1.25rem;
+    color: #fff;
+}
+
+.c-hero-labels__inner {
+    position: absolute;
+}
+
+.hero-scroll__arrows{
+    position: relative;
+}
+
+.hero-scroll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    border: 1px solid hsla(0,0%,100%,.5);
+    left: 1200px;
+    bottom: 300px;
+}
+
+/* .hero-scroll__arrows{
+    position: relative;
+}
+
+.arrow1{
+    width: 10%;
+} */
+
+.hero-scroll__arrows {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+   
+    
+    height: 50%;
+    width: 50%;
+    overflow: hidden;
+}
+
+
+
+/* button, select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+
+*/ 
+/* .c-site-head__logo button {
+    box-shadow: none;
+    padding: 0;
+     margin: 0; 
+    cursor: pointer;
+} */
+
+/* .c-site-head__logo button {
+    appearance: auto;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    border-radius: 2px;
+} */
+
+/*  .hero-scroll__arrows {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(90deg);
+    height: 50%;
+    width: 50%;
+    overflow: hidden; 
+} */
+
+/* .c-site-head__logo button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(90deg);
+    height: 50%;
+    width: 50%;
+    overflow: hidden; 
+} */
+
+.hero-scroll__arrows img {
+    position: absolute;
+    bottom: 0;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /* -webkit-animation: heroArrow 2s ease infinite; */
+    animation: heroArrow 2s ease infinite;
+}
+
+@keyframes heroArrow {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(100%);
+    }
+    
+    100% {
+        transform: translateY(100%);
+    }
+    
+}
+
+
+
+
+
+
+
+
